@@ -43,7 +43,7 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
-    background-color: #ffffff;
+    background-color: #000;
 }
 body.blog {
     overflow-y: scroll;
@@ -911,17 +911,17 @@ a.totop-link {
    #Last Screen
    ========================================================================== */
 .introduction-end {
-    background:  no-repeat right top;
+    background: url("../images/ogback.JPG") no-repeat left top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: 90% 100%;
     cursor: pointer;
 }
 .introduction-end-con {
-    float: right;
-    margin: 30% 0 0;
-    width: 30%;
+    float: bottom right ;
+    margin: 50%;
+    width: 29%;
 }
 .introduction-end-con h3 {
     font-size: 55px;
@@ -930,7 +930,7 @@ a.totop-link {
 }
 .introduction-end-con h3 strong {
     border-top: 1px solid #333333;
-    border-bottom: 1px solid #333333;
+    border-bottom: 1px solid #888;
     padding: 10px 0;
     color: #7dba5c;
     font-weight: normal;
@@ -1292,7 +1292,7 @@ iframe, embed, object {
    ========================================================================== */
 
 @media only screen and (max-device-width:768px)   {
-    .introduction img {
+    .introduction img { url("../images/back.jpg")
         height:auto;
         width:auto;
     }
